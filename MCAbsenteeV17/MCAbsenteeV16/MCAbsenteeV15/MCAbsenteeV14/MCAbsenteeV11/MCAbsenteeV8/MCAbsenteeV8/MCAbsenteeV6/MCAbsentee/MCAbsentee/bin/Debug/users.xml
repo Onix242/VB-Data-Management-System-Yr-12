@@ -1,0 +1,21 @@
+<?xml version="1.0" standalone="yes"?>
+<dsUsers>
+	<dtabUsers>
+		<UserNbr>1</UserNbr>
+		<UserName>Ben Bailey</UserName>
+		<UserID>Admin</UserID>
+		<Password>B</Password>
+	</dtabUsers>
+	<dtabUsers>
+		<UserNbr>2</UserNbr>
+		<UserName>Andy Brown</UserName>
+		<UserID>A</UserID>
+		<Password>A</Password>
+	</dtabUsers>
+	<dtabUsers>
+		<UserNbr>3</UserNbr>
+		<UserName>Gabbriel Houridis</UserName>
+		<UserID>G</UserID>
+		<Password>G</Password>
+	</dtabUsers>
+</dsUsers>

@@ -1,0 +1,116 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+MCAbsentee
+</name>
+</assembly>
+<members>
+<member name="T:MCAbsentee.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:MCAbsentee.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:MCAbsentee.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="P:MCAbsentee.My.Resources.Resources.Dark_Green_Background">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:MCAbsentee.My.Resources.Resources.Green_Background">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:MCAbsentee.My.Resources.Resources.Maroon_Geometric_Strip">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:MCAbsentee.My.Resources.Resources.Maroon_Strip">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:MCAbsentee.My.Resources.Resources.Red_Strip">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="T:MCAbsentee.MCAbsenteeDataSet">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:MCAbsentee.MCAbsenteeDataSet.Student_DataDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:MCAbsentee.MCAbsenteeDataSet.Student_DataRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:MCAbsentee.MCAbsenteeDataSet.Student_DataRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:MCAbsentee.MCAbsenteeDataSetTableAdapters.Student_DataTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:MCAbsentee.MCAbsenteeDataSetTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:MCAbsentee.MCAbsenteeDataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(MCAbsentee.MCAbsenteeDataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:MCAbsentee.MCAbsenteeDataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(MCAbsentee.MCAbsenteeDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:MCAbsentee.MCAbsenteeDataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(MCAbsentee.MCAbsenteeDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:MCAbsentee.MCAbsenteeDataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:MCAbsentee.MCAbsenteeDataSetTableAdapters.TableAdapterManager.UpdateAll(MCAbsentee.MCAbsenteeDataSet)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:MCAbsentee.MCAbsenteeDataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:MCAbsentee.MCAbsenteeDataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+</members>
+</doc>
